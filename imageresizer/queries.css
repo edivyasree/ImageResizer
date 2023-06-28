@@ -1,0 +1,52 @@
+
+@media only screen and (max-device-width:844px) {
+ 
+    .heading{
+        background-color: black;
+        color: white;
+        text-align:center
+      }
+    
+    .dimensions{
+      margin-top: 10px;
+     
+      font-size: 3.4em;
+     }
+     .body-content{
+      margin: 0 auto;
+      width: 100%;
+    
+    }
+  
+     output{
+      display: block;
+      margin-top: 10px;
+     }
+     .heading{
+      width: 100%;
+      background-color: black;
+      color: white;
+    }
+  
+    .dimensions input{
+      height: 2em;
+      width: 100%;
+      display: block;
+    }
+    input#height {
+    display: block;
+    }
+
+    .dimensions{
+        margin-top: 10px;
+        font-size: 1.4em;
+        
+       } 
+   
+output .image img{
+    height: 100%;
+    width: 50%;
+  
+  }
+  }
+  

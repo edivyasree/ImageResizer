@@ -1,0 +1,80 @@
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://saishivahariprasad.com/ImageResizer.html" />
+  <link rel="stylesheet" type="text/css" href="./imageresizer/style.css">
+  <link rel="stylesheet"  type="text/css" href="./imageresizer/queries.css">
+
+
+
+</head>
+<body>
+
+
+<div class="body-content">
+    <h1 class="heading"> Image Resizer</h1> 
+
+  <div class="MainContent">
+    <ul id="results-container"></ul>
+    <div class="preview_image">
+
+   
+    <input class="fileupload" type="file" accept="image/jpeg, image/png, image/jpg">
+
+    <div class="dimensions">
+    Height <input type="number" required id="height" placeholder="300" >
+    &times; Width <input type="number" required id="width" placeholder="300" >
+
+    </div>
+  
+  </div>
+    <output>
+            <!-- UPLOAD IMAGES ARE SHOWN HERE -->
+
+    </output>
+
+
+    <div class="outputsection">
+    <button onclick="submitImage()">Submit</button>
+    
+
+    <div id=processedImage> 
+            <!-- IMAGE OUTPUT here -->
+      <div class="outputImage"></div>
+    </div>
+</div>
+
+    
+</div>
+</div>
+</div>
+<script src="./imageresizer/script.js"></script>
+
+  <script>
+
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y7S2Z6TDCN');
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+
+
+</body>
+
+
+  
+
+</html>
